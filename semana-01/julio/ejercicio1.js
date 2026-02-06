@@ -1,12 +1,8 @@
-function autorizacion(edad,nombre){
-  let result;
-  if(edad>=18){
-    result= 'Bienvenido ';
-    console.log(result+nombre);
-  }else{
-    result= 'Acceso denegado '
-    console.log(result+nombre);
-  }
-}
+let edad = 30
+let nombre = 'Julio'
 
-autorizacion(23,'Julio')
+
+let autorizacion = edad>=18 ? `Bienvenido ${nombre}`:"No Autorizado";
+
+console.log(autorizacion);
+
