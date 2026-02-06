@@ -1,9 +1,5 @@
 function validarAcceso(nombre, edad) {
-    if (edad >= 18) {
-        console.log("Bienvenido " + nombre + " :P ");
-    } else {
-        console.log("Acceso Denegado X ");
-    }
+    edad >= 18 ? console.log("Bienvenido " + nombre) : console.log("Acceso denegado");
 }
 
 validarAcceso("Jotta", 31);
